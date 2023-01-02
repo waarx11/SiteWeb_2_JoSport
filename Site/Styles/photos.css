@@ -1,0 +1,57 @@
+.photofi {
+	border: thin #c0c0c0 solid;
+	display: flex;
+	flex-flow: column;
+	width: 300px;
+	height: 150px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.photosa{
+	margin: 30px;
+	margin-left: 110px;
+	margin-right: 110px;
+	width: 200px;
+}
+
+.photosim{
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.articlephoto{
+	background-color: rgba(8, 8, 8, 0.4);
+}
+
+.divphoto{
+	padding-left: 0px;
+	padding-right: 0px;
+	max-width: 100%;
+	margin: 15px;
+	margin-left: 50px;
+	display: flex;
+	flex-wrap:  wrap;
+}
+
+.photosfig{
+	font-family: "Mapolice";
+	background-color: #222;
+	color: #fff;
+	padding: 3px;
+	text-align: center;
+}
+
+img.backColor{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+	display: block;
+	border: black solid;
+}
+
+/*.backColor{
+	border: black solid;
+	max-width: 80%;
+	vertical-align: middle;
+}*/

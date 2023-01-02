@@ -1,0 +1,102 @@
+/*///////// h1 /////////*/
+#titre1{
+	padding: 40px;
+	font-size: 50px;
+	animation-name: titre;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+ 	animation-delay: 0s;
+  animation-iteration-count: infinite;
+	text-shadow: 2px 2px 2px red,
+			0 0 3em blue,
+			0 0 0.2em blue;
+}
+/*///////// animation de h1 /////////*/
+@keyframes titre {
+  0%   {color:yellow; /*left:0px; top:0px;*/}
+  25%  {color:red; /*left:200px; top:0px;*/}
+  50%  {color:blue; /*left:200px; top:200px;*/}
+  75%  {color:purple; /*left:0px; top:200px;*/}
+  100% {color:yellow; /*left:0px; top:0px;*/}
+}
+
+.divContentFlex {
+	display:  flex;
+	justify-content: space-between;
+}
+
+.divAsideFlex {
+	display:  flex;
+	flex-direction:  column;
+}
+
+
+/*///////// section /////////*/
+section{
+	/*width: 80%;*/
+	flex:  1;
+}
+/*///////// aside /////////*/
+.LienAncre
+{
+	height: 320px;
+	background-color: rgba(190, 190, 190, 0.7);
+	border: 2px solid black;
+	/*top: 252px;
+	right: 0;
+	position: fixed;*/
+	text-align: center;
+	list-style: none;
+	border-radius: 20% 0% 0% 20%;
+	order:  1;
+}
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+}
+
+aside ul li
+{
+	list-style: none;
+	padding-top: 3%;
+}
+aside ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF  ;
+	font-size: 135%;
+}
+
+.ancreSport:hover
+{
+	color: orangered;
+	border-bottom: 2px solid gold;
+}
+.jo
+{
+	max-height: 50px;
+	max-width: 100px;
+}
+/*///////// aside des réseaux /////////*/
+.reseau{
+	width:  50%;
+	height: 170px;
+	background-color: rgba(190, 190, 190, 0.5);
+	border: 2px solid black;
+	/*right: 0px;
+	position: fixed;*/
+	text-align: center;
+	list-style: none;
+	border-radius: 20% 0% 0% 20%;
+	align-self:  flex-end;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+}
+/*///////// lien déja visite /////////*/
+aside a:visited {
+	color: orangered;
+}

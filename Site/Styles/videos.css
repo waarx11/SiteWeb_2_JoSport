@@ -1,0 +1,13 @@
+.videoabsolute
+{
+	position: absolute;
+	left: 85px;
+	top: 555px;
+	background-color: grey;
+	padding: 5px;
+}
+
+video{
+	margin-top: 55px;
+	border: 2px;
+}

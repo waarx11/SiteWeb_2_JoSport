@@ -1,0 +1,9 @@
+body { 
+	background-color :#fff;
+	font-family :Serif;
+	font-size :15pt;
+}
+
+header, footer, a, .ButtonIndcription{
+	display: none;
+}

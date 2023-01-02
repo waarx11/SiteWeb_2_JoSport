@@ -1,0 +1,32 @@
+@media screen and (max-width:800px){
+	/*body{
+		font-size: 1rem;
+	}
+	p{
+		font-size: 1rem;
+	}
+	article{
+		min-width: 100%;
+	}*/
+	.divContentFlex{
+		display: block;
+	}
+	.LienAncre{
+		width: 100%;
+		top: 8px;
+		height: 400px;
+		position: relative;
+		text-align: center;
+		list-style: none;
+		border-radius: 0%;
+	}
+	.reseau{
+		width: 100%;
+		top: 8px;
+		height: 200px;
+		position: relative;
+		text-align: center;
+		list-style: none;
+		border-radius: 0%;	
+	}
+}
